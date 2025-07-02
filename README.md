@@ -13,7 +13,6 @@ Synapse-X는 기록 기반 네트워킹 기능 중심 하이브리드 컨퍼런�
 ---
 
 1️⃣ 인사이트 노트 
-
 - 나의 인사이트를 정리하고, 타 참가자의 인사이트를 보며, 연사와도 연결 가능합니다.
 - 작성된 인사이트 노트들을 같은 세션, 전체 세션에서 확인
 - 타 참가자들의 프로필에서 컨택 메일 주소, 직군/직업, 관심분야, 네트워킹 링크 확인
@@ -45,15 +44,15 @@ Synapse-X는 기록 기반 네트워킹 기능 중심 하이브리드 컨퍼런�
 
 ### 🛠️ 기술 스택
 ---
-- **Next.js**
+- **Next.js** <br/>
 `pre-rendering`으로 SEO를 최적화하고, `client-side navigation`으로 사용자에게 매끄러운 페이지 간 이동을 제공하기 위해 채택했습니다. 
-- **TailwindCSS**
+- **TailwindCSS** <br/>
 빌드 타임에 stylesheet를 가져오기 때문에 SSR 환경에서 추가적인 설정이 필요 없으며, `atomic`한 특성으로 인해 프로젝트의 크기가 거대해져도 stylesheet 크기가 비례해서 늘어나지 않아 채택했습니다.
-- **TypeScript**
+- **TypeScript** <br/>
 코드 가독성 및 타입 안정성을 보장하기 위해 채택했습니다.
-- **Tanstack Query(React-Query)**
+- **Tanstack Query(React-Query)** <br/>
 서버 상태를 관리하기 위해 채택했습니다.
-- **Vercel**
+- **Vercel** <br/>
 Next.js의 공식 호스팅 파트너로서 쉬운 지원 및 최적화를 진행해 주기 때문에 선택했습니다.
 
 
